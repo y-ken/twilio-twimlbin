@@ -21,6 +21,6 @@ unless ENV.has_key?('VERBOSE')
   $log = nulllogger
 end
 
-require 'twimlbin'
+require 'twilio-twimlbin'
 class Test::Unit::TestCase
 end

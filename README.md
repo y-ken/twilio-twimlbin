@@ -1,4 +1,4 @@
-twimlbin
+twilio-twimlbin
 =====================
 
 ## Overview
@@ -8,14 +8,14 @@ You can use [twimlbin.com](http://twimlbin.com/) to host twilio markup language 
 ## Installation
 
 `````
-$ sudo gem install twimlbin
+$ sudo gem install twilio-twimlbin
 `````
 
 ## Usage
 
 `````ruby
 # -*- encoding: utf-8 -*-
-require 'twimlbin'
+require 'twilio-twimlbin'
 require 'twilio-ruby'
 
 response = Twilio::TwiML::Response.new do |r|
