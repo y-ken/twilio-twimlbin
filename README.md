@@ -2,8 +2,8 @@ twimlbin
 =====================
 
 ## Overview
-twimlbin ruby wrapper class.  
-you can use twimlbin to host twilio markup language without a own server.
+Twimlbin ruby wrapper class.  
+You can use [twimlbin.com](http://twimlbin.com/) to host twilio markup language without your own server.
 
 ## Installation
 
