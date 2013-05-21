@@ -11,6 +11,22 @@ you can use twimlbin to host twilio markup language without a own server.
 $ sudo gem install twimlbin
 `````
 
+## Usage
+
+`````ruby
+# -*- encoding: utf-8 -*-
+require 'twimlbin'
+require 'twilio-ruby'
+
+response = Twilio::TwiML::Response.new do |r|
+  r.Say 'Hello World', :voice => 'man', :language => 'ja-jp'
+end
+
+twiml = Twimlbin.new
+url = twiml.create(response.text)
+puts url
+`````
+
 ## TODO
 Pull requests are very welcome!!
 
