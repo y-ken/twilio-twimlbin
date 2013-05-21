@@ -19,7 +19,7 @@ require 'twimlbin'
 require 'twilio-ruby'
 
 response = Twilio::TwiML::Response.new do |r|
-  r.Say 'Hello World', :voice => 'man', :language => 'ja-jp'
+  r.Say 'Hello World', :voice => 'woman', :language => 'ja-jp'
 end
 
 twiml = Twimlbin.new
