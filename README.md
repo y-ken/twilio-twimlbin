@@ -30,6 +30,11 @@ puts url
 ## TODO
 Pull requests are very welcome!!
 
+## Articles
+
+* Twilioのマークアップ言語TwiMLを無料ホスティングするサービス「twimlbin」をRubyから利用する「twilio-twimlbin」を公開しました  
+http://y-ken.hatenablog.com/entry/twilio-twimlbin-gem-has-released
+
 ## Copyright
 Copyright © 2013- Kentaro Yoshida ([@yoshi_ken](https://twitter.com/yoshi_ken))
 
