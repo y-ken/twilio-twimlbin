@@ -23,8 +23,9 @@ response = Twilio::TwiML::Response.new do |r|
 end
 
 twiml = Twimlbin.new
-url = twiml.create(response.text)
-puts url
+twiml.create(response.text)
+puts twiml.external_url # print public url
+puts twiml.private_url # print editable url
 `````
 
 ## TODO

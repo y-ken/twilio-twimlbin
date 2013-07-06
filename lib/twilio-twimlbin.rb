@@ -1,4 +1,5 @@
 class Twimlbin
+  attr_reader :external_url, :private_url, :token
 
   def initialize
     require 'net/http'
