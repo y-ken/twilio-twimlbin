@@ -1,4 +1,4 @@
-twilio-twimlbin
+twilio-twimlbin [![Build Status](https://travis-ci.org/y-ken/twilio-twimlbin.png?branch=master)](https://travis-ci.org/y-ken/twilio-twimlbin)
 =====================
 
 ## Overview
