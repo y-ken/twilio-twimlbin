@@ -26,8 +26,8 @@ class Twimlbin
   end
 
   def publish(xml)
-    request = Net::HTTP::Post.new("/save_data")
-    body = {'index' => @token, 'twiml' => xml}
+    request = Net::HTTP::Post.new("/#{@token}/update")
+    body = {'id' => @token, 'twiml' => xml}
     request.set_form_data(body)
     begin
       return @http.request(request)
